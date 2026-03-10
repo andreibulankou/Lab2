@@ -75,7 +75,7 @@ begin
         i_Hex <= "1000"; wait for 10 ns;
             assert o_seg_n = "0000000" report "error on 8" severity failure;
         i_Hex <= "1001"; wait for 10 ns;
-            assert o_seg_n = "0010000" report "error on 9" severity failure;
+            assert o_seg_n = "0011000" report "error on 9" severity failure;
         i_Hex <= "1010"; wait for 10 ns;
             assert o_seg_n = "0001000" report "error on A" severity failure;
         i_Hex <= "1011"; wait for 10 ns;
